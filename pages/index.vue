@@ -1,34 +1,45 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        Sarath & Akshitha
-      </h1>
-      <h2 class="subtitle">
-        Starting a new life on
-      </h2>
-      <p class="text">05 Sept 2019, 11.00am</p>
-      <p class="text">at Thiruvanvandoor Gosalakrishna Temple</p>
+  <div class="wedding-container">
+    <div class="banner-container">
+      <div>
+        <logo />
+        <h1 class="title">
+          Sarath & Akshitha
+        </h1>
+        <h2 class="subtitle">
+          Starting a new life on
+        </h2>
+        <p class="text">05 Sept 2019, 11.00am</p>
+        <p class="text">at Thiruvanvandoor Gosalakrishna Temple</p>
+      </div>
+      <div class="arrow-down">
+        <i class="fa fa-angle-double-down"></i>
+      </div>
     </div>
-    <div class="arrow-down">
-      <i class="fa fa-angle-double-down"></i>
-    </div>
+    <AboutGroom />
+    <AboutBride />
+    <Location />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import AboutGroom from '~/components/AboutGroom'
+import AboutBride from '~/components/AboutBride'
+import Location from '~/components/Location'
 
 export default {
   components: {
-    Logo
+    Logo,
+    AboutGroom,
+    AboutBride,
+    Location
   }
 }
 </script>
 
 <style>
-.container {
+.banner-container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
