@@ -1,13 +1,13 @@
 <template>
   <div class="wedding-logo">
-    <img src="http://www.pngall.com/wp-content/uploads/2016/07/Wedding-PNG-HD.png" alt="">
+    <img src="https://appstickers-cdn.appadvice.com/1201604079/820792288/64a9a614dc21cd2e3a0e887bd85aa143-4.gif" alt="">
   </div>
 </template>
 
 <style>
 .wedding-logo{
   width: 90%;
-  max-width: 400px;
+  max-width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;

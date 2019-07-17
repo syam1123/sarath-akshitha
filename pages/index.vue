@@ -46,23 +46,31 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: gray url(https://t4.ftcdn.net/jpg/02/40/24/73/240_F_240247304_b8OlrQSQIqrXnuaUp2hhTGU1ozobtP9K.jpg) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  padding-top: 200px;
+  box-sizing: border-box;
+  -webkit-animation: slide 40s linear infinite;
+  background-repeat: repeat-x;
+  background-color: white;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: fantasy;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
+  font-weight: 600;
+  font-size: 62px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 30px;
   color: #526488;
-  word-spacing: 5px;
   padding-bottom: 15px;
 }
 
@@ -129,6 +137,20 @@ export default {
     -ms-transform: translateY(-15px);
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
+  }
+}
+
+@keyframes slide {
+  0% { background-position: 0 0; }
+  100% { background-position: -400px 0; }
+}
+
+@media screen and (max-width: 500px) {
+  .title{
+    font-size: 36px;
+  }
+  .subtitle{
+    font-size: 24px;
   }
 }
 </style>
