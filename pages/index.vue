@@ -142,7 +142,8 @@ export default {
 
 @keyframes slide {
   0% { background-position: 0 0; }
-  100% { background-position: -400px 0; }
+  50% { background-position: -200px 0; }
+  100% { background-position: 0 0; }
 }
 
 @media screen and (max-width: 500px) {
