@@ -5,6 +5,24 @@
         <div class="image" />
       </div>
       <h1>Akshitha</h1>
+      <dl class="profile">
+        <dt>Name</dt>
+        <dd>Akshitha S Pillai</dd>
+        <dt>Birthday</dt>
+        <dd>13 November, 1994</dd>
+        <dt>Childhood dream</dt>
+        <dd>Doctor</dd>
+        <dt>Current job</dt>
+        <dd>Dental specialist</dd>
+        <dt>Current location</dt>
+        <dd>Chengannur</dd>
+        <dt>Favorite destination</dt>
+        <dd>Thailand</dd>
+        <dt>Favorite food</dt>
+        <dd>Appam & Duck roast</dd>
+        <dt>Favorite drink</dt>
+        <dd>Coffee</dd>
+      </dl>
     </div>
   </div>
 </template>
@@ -52,5 +70,23 @@ export default {
   font-size: 40px;
   margin-top: 10px;
   font-family: fantasy;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin: auto;
+  margin-bottom: 2em;
+  max-width: 500px;
+}
+.profile dt {
+  width: 45%;
+  display: block;
+}
+.profile dd {
+  width: 50%;
+  margin: 0.3em 0em;
+  font-weight: 500;
 }
 </style>
