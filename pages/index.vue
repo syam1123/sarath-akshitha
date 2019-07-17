@@ -51,7 +51,7 @@ export default {
   margin: 0;
   text-align: center;
   height: 100vh;
-  padding-top: 200px;
+  padding-top: 150px;
   box-sizing: border-box;
   -webkit-animation: slide 40s linear infinite;
   background-repeat: repeat-x;
@@ -69,14 +69,15 @@ export default {
 
 .subtitle {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 16px;
   color: #526488;
   padding-bottom: 15px;
 }
 
 .text {
   color: #565555;
-  line-height: 20px;
+  line-height: 24px;
+  font-size: 20px;
 }
 
 .arrow-down{
@@ -142,7 +143,11 @@ export default {
 
 @keyframes slide {
   0% { background-position: 0 0; }
+  5% { background-position: -10px 0;}
+  45% { background-position: -190px 0; }
   50% { background-position: -200px 0; }
+  55% { background-position: -190px 0; }
+  95% { background-position: -10px 0;}
   100% { background-position: 0 0; }
 }
 
