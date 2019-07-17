@@ -69,7 +69,7 @@ export default {
 
 .subtitle {
   font-weight: 300;
-  font-size: 30px;
+  font-size: 24px;
   color: #526488;
   padding-bottom: 15px;
 }
@@ -150,7 +150,14 @@ export default {
     font-size: 36px;
   }
   .subtitle{
-    font-size: 24px;
+    font-size: 14px;
+  }
+  .text {
+    color: #565555;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: #440202; */
   }
 }
 </style>
