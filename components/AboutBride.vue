@@ -77,10 +77,13 @@ export default {
   margin: auto;
   margin-bottom: 2em;
   max-width: 500px;
+  justify-content: space-between;
 }
 .profile dt {
   width: 45%;
   display: block;
+  color: #777;
+  padding-right: 1em;
 }
 .profile dd {
   width: 50%;

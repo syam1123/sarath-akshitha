@@ -21,9 +21,13 @@
       <AboutBride />
     </div>
     <div class="engagement-container">
-
+      <div class="overlay">
+        <h2>Engagement</h2>
+        <h1>Monday, 08 JUL 2019</h1>
+      </div>
     </div>
     <Location />
+    <Rsvp />
     <Instagram />
     <div class="credits">
       Created with ❤️ by <a href="https://syamsp.com" target="_blank">@Syam</a>
@@ -37,6 +41,7 @@ import AboutGroom from '~/components/AboutGroom'
 import AboutBride from '~/components/AboutBride'
 import Location from '~/components/Location'
 import Instagram from '~/components/Instagram'
+import Rsvp from '~/components/Rsvp'
 
 export default {
   components: {
@@ -44,7 +49,8 @@ export default {
     AboutGroom,
     AboutBride,
     Location,
-    Instagram
+    Instagram,
+    Rsvp
   }
 }
 </script>
@@ -116,8 +122,25 @@ export default {
 }
 
 .engagement-container {
-  height: 300px;
-  -webkit-animation: slide 40s linear infinite;
+  height: 400px;
+  -webkit-animation: slide 20s linear infinite;
+  background-image: url('/engagement.png');
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: lato;
 }
 
 .credits {
