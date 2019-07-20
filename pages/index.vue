@@ -16,9 +16,18 @@
         <i class="fa fa-angle-double-down"></i>
       </div>
     </div>
-    <AboutGroom />
-    <AboutBride />
+    <div class="about-main-container">
+      <AboutGroom />
+      <AboutBride />
+    </div>
+    <div class="engagement-container">
+
+    </div>
     <Location />
+    <Instagram />
+    <div class="credits">
+      Created with ❤️ by <a href="https://syamsp.com" target="_blank">@Syam</a>
+    </div>
   </div>
 </template>
 
@@ -27,13 +36,15 @@ import Logo from '~/components/Logo.vue'
 import AboutGroom from '~/components/AboutGroom'
 import AboutBride from '~/components/AboutBride'
 import Location from '~/components/Location'
+import Instagram from '~/components/Instagram'
 
 export default {
   components: {
     Logo,
     AboutGroom,
     AboutBride,
-    Location
+    Location,
+    Instagram
   }
 }
 </script>
@@ -56,6 +67,7 @@ export default {
   -webkit-animation: slide 40s linear infinite;
   background-repeat: repeat-x;
   background-color: white;
+  height: auto;
 }
 
 .title {
@@ -78,6 +90,7 @@ export default {
   color: #565555;
   line-height: 24px;
   font-size: 20px;
+  font-family: lato;
 }
 
 .arrow-down{
@@ -91,6 +104,34 @@ export default {
 	animation: bounce 3s infinite;
   font-size: 20px;
   color: #f07574;
+}
+
+.about-main-container {
+  display: flex;
+  max-width: 1200px;
+  width: 95%;
+  justify-content: space-between;
+  margin: 3em auto;
+  height: auto;
+}
+
+.engagement-container {
+  height: 300px;
+  -webkit-animation: slide 40s linear infinite;
+}
+
+.credits {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-family: lato;
+}
+
+.credits a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
 }
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -164,6 +205,16 @@ export default {
     font-size: 16px;
     font-weight: 500;
     /* color: #440202; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-main-container {
+    flex-direction: column;
+  }
+
+  .about-container.bride {
+    margin-top: 2em;
   }
 }
 </style>

@@ -55,13 +55,11 @@ export default {
   background-position: center;
 }
 .image-container .image {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
+  width: 300px;
+  height: 300px;
 }
 .bride .image {
   background: url(https://bit.ly/2xMUrMz);
-  box-shadow: 0px 0px 16px 3px #63f1f7 inset;
   background-position: top 0px center;
   background-size: 100%;
 }
