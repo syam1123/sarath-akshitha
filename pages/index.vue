@@ -1,7 +1,7 @@
 <template>
   <div class="wedding-container">
     <div class="banner-container">
-      <div>
+      <div id="introduction">
         <logo />
         <h1 class="title">
           Sarath & Akshitha
@@ -10,7 +10,7 @@
           Starting a new life on
         </h2>
         <p class="text">05 Sept 2019, 11.00am</p>
-        <p class="text">at Thiruvanvandoor Gosalakrishna Temple</p>
+        <p class="text"><a href="https://goo.gl/maps/Q4CzCsjtqjnxJUKL9">at Thiruvanvandoor Gosalakrishna Temple</a></p>
       </div>
       <div class="arrow-down">
         <i class="fa fa-angle-double-down"></i>
@@ -56,6 +56,18 @@ export default {
 </script>
 
 <style>
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+.subtitle,.title {
+  font-family: 'Satisfy', cursive;
+}
+
+#introduction a {
+  text-decoration: none !important;
+  color: black;
+}
+
 .banner-container {
   margin: 0 auto;
   min-height: 100vh;
@@ -71,13 +83,13 @@ export default {
   padding-top: 150px;
   box-sizing: border-box;
   -webkit-animation: slide 40s linear infinite;
+  animation: slide 40s linear infinite;
   background-repeat: repeat-x;
   background-color: white;
   height: auto;
 }
 
 .title {
-  font-family: fantasy;
   display: block;
   font-weight: 600;
   font-size: 62px;
@@ -96,7 +108,6 @@ export default {
   color: #565555;
   line-height: 24px;
   font-size: 20px;
-  font-family: lato;
 }
 
 .arrow-down{
@@ -124,7 +135,8 @@ export default {
 .engagement-container {
   height: 400px;
   -webkit-animation: slide 20s linear infinite;
-  background-image: url('/engagement.png');
+  animation: slide 20s linear infinite;
+  background-image: url('~assets/engagement.png');
   position: relative;
 }
 
@@ -140,7 +152,6 @@ export default {
   justify-content: center;
   flex-direction: column;
   color: white;
-  font-family: lato;
 }
 
 .credits {

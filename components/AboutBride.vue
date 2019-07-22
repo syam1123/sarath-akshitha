@@ -50,7 +50,7 @@ export default {
   background-position: center;
 }
 .bride .image-container {
-  background: url(https://img.freepik.com/free-photo/textured-blue-paint-brushstroke-white_23-2147746844.jpg?size=626&ext=jpg) no-repeat;
+  background: url(https://www.onlygfx.com/wp-content/uploads/2018/01/green-paint-brush-stroke-8.png) no-repeat;
   background-size: contain;
   background-position: center;
 }
@@ -59,7 +59,7 @@ export default {
   height: 300px;
 }
 .bride .image {
-  background: url(https://bit.ly/2xMUrMz);
+  background: url(~assets/akshi.png) no-repeat;
   background-position: top 0px center;
   background-size: 100%;
 }

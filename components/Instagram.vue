@@ -24,10 +24,10 @@ export default {
   font-family: fantasy;
   background: -webkit-linear-gradient( #ff1010, #f7eb37, #4ce00f);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .instagram-section p{
-  font-family: lato;
   color: #222;
 }
 </style>

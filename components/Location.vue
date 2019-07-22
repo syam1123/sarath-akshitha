@@ -22,7 +22,6 @@ export default {
     color: white;
     text-align: center;
     padding-top: 4em;
-    font-family: lato;
   }
 
   .location-container h2{
@@ -41,6 +40,7 @@ export default {
     font-size: 3em;
     background: -webkit-linear-gradient(right, #ffa710, #f9ff31, #f936f7);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 

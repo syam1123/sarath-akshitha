@@ -41,7 +41,6 @@ export default {
     min-height: 100vh;
     width: 100%;
     background-color: #BDC3C7;
-    font-family: 'Raleway';
   }
   .top {
     background-color: #264356;
@@ -74,7 +73,6 @@ export default {
   }
 
   h2 {
-    font-family: 'Great Vibes', cursive;
     font-weight: 100;
   }
 
@@ -103,7 +101,6 @@ export default {
   button {
     color: #666;
     background-color: #264356;
-    font-family: lato;
     color: white;
     border: none;
     font-size: 16px;
