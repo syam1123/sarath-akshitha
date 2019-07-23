@@ -71,8 +71,5 @@ export default {
     .location-container h3{
       font-size: 24px;
     }
-    .location-container{
-      padding-top: 3em;
-    }
   }
 </style>

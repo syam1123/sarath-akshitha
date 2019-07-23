@@ -35,7 +35,8 @@ export default {
 <style>
 .about-container{
   /* background: orange; */
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 .image-container {
   width: 100%;
