@@ -13,9 +13,10 @@ export default {
 
 <style>
 .instagram-section {
-  background-image: linear-gradient(348deg,#1c9dff,#3acbff);
+  /* background-image: linear-gradient(348deg,#1c9dff,#3acbff); */
   padding: 2em 1em;
   text-align: center;
+  background: #9d5f34;
 }
 
 .instagram-section h1{
