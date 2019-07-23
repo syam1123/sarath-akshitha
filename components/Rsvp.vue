@@ -41,6 +41,9 @@ export default {
     min-height: 100vh;
     width: 100%;
     background-color: #BDC3C7;
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/32/grass-159804_960_720.png);
+    background-position: bottom -152px left;
+    background-repeat: repeat-x;
   }
   .top {
     background-color: #264356;
@@ -79,6 +82,9 @@ export default {
   p.line {
     margin: 0px auto 20px auto;
     color: #999;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
   }
 
   .form input {

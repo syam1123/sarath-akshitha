@@ -68,6 +68,10 @@ body {
   color: black;
 }
 
+.wedding-container{
+  overflow: hidden;
+}
+
 .banner-container {
   margin: 0 auto;
   min-height: 100vh;
