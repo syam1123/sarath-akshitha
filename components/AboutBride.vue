@@ -50,9 +50,9 @@ export default {
   background-position: center;
 }
 .bride .image-container {
-  background: url(https://i.pinimg.com/originals/69/6b/8b/696b8b8aa775971c56533fca526c879f.png) no-repeat;
-  background-size: contain;
-  background-position: bottom -10px center;
+  background: url(https://freedesignfile.com/upload/2016/10/Stock-Photo-Splash-of-Color-background.jpg) no-repeat;
+  background-size: 370px;
+  background-position: center;
 }
 .image-container .image {
   width: 300px;
