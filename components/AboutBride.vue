@@ -45,14 +45,14 @@ export default {
   justify-content: center;
 }
 .groom .image-container {
-  background: url(https://www.onlygfx.com/wp-content/uploads/2018/01/green-paint-brush-stroke-8.png) no-repeat;
+  background: url(https://www.crownpeak.com/images/Why/Tech-Companies/Take-off-color-burst1.jpg) no-repeat;
   background-size: contain;
   background-position: center;
 }
 .bride .image-container {
-  background: url(https://www.onlygfx.com/wp-content/uploads/2018/01/green-paint-brush-stroke-8.png) no-repeat;
+  background: url(https://i.pinimg.com/originals/69/6b/8b/696b8b8aa775971c56533fca526c879f.png) no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: bottom -10px center;
 }
 .image-container .image {
   width: 300px;
