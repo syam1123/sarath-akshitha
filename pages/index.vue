@@ -20,12 +20,12 @@
       <AboutGroom />
       <AboutBride />
     </div>
-    <div class="engagement-container">
+    <!-- <div class="engagement-container">
       <div class="overlay">
         <h2>Engagement</h2>
         <h1>Monday, 08 JUL 2019</h1>
       </div>
-    </div>
+    </div> -->
     <Location />
     <Rsvp />
     <Instagram />
