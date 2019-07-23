@@ -135,4 +135,10 @@ export default {
   button:focus {
     outline: 0;
   }
+
+  @media screen and (max-width: 500px){
+    .rsvp{
+      min-height: 750px;
+    }
+  }
 </style>
