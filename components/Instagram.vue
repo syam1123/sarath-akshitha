@@ -21,11 +21,9 @@ export default {
 .instagram-section h1{
   color: white;
   font-size: 3em;
-  font-family: fantasy;
-  background: -webkit-linear-gradient( #ff1010, #f7eb37, #4ce00f);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-family: monospace;
+  margin-bottom: .5em;
+  letter-spacing: 1px;
 }
 .instagram-section p{
   color: #222;
