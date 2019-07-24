@@ -139,6 +139,9 @@ export default {
   @media screen and (max-width: 500px){
     .rsvp{
       min-height: 750px;
+      background-position: bottom -52px left;
+      background-repeat: repeat-x;
+      background-size: 300px;
     }
   }
 </style>

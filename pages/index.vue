@@ -137,7 +137,6 @@ body {
 }
 
 .engagement-container {
-  height: 400px;
   -webkit-animation: slide 20s linear infinite;
   animation: slide 20s linear infinite;
   background-image: url('~assets/engagement.png');

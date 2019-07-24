@@ -37,6 +37,8 @@ export default {
   /* background: orange; */
   min-height: 100vh;
   height: auto;
+  display: flex;
+  align-items: center;
 }
 .image-container {
   width: 100%;
