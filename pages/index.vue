@@ -137,11 +137,13 @@ body {
 }
 
 .engagement-container {
-  -webkit-animation: slide 20s linear infinite;
+  -webkit-animation: oscillate 10s linear infinite;
   animation: slide 20s linear infinite;
   background-image: url('~assets/engagement.png');
+  background-size: 60%;
   position: relative;
 }
+
 
 .overlay {
   position: absolute;
