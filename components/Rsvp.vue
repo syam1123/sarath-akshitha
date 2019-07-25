@@ -43,6 +43,7 @@ export default {
     background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/32/grass-159804_960_720.png);
     background-position: bottom -152px left;
     background-repeat: repeat-x;
+    /* animation: slide 40s linear infinite; */
   }
   .top {
     background-color: #264356;

@@ -5,7 +5,15 @@
         <div class="image" />
       </div>
       <h1>Akshitha</h1>
-      <dl class="profile">
+      <h2>(5 things about her by him)</h2>
+      <ul class="profile-details">
+        <li>"Food, Sleep and Work - Favourite trio"</li>
+        <li>"Can hold a conversation until 4am and go to work at 8"</li>
+        <li>"Thought she is really cute when first met,... still does"</li>
+        <li>"She knows i can't fix the internet" </li>
+        <li>"Amsterdam, currenrt favourite destination"</li>
+      </ul>
+      <!-- <dl class="profile">
         <dt>Name</dt>
         <dd>Akshitha S Pillai</dd>
         <dt>Birthday</dt>
@@ -22,7 +30,7 @@
         <dd>Appam & Duck roast</dd>
         <dt>Favorite drink</dt>
         <dd>Coffee</dd>
-      </dl>
+      </dl>-->
     </div>
   </div>
 </template>
@@ -71,6 +79,11 @@ export default {
   font-size: 40px;
   margin-top: 10px;
   font-family: fantasy;
+}
+.about-section h2{
+  font-size: 1em;
+  color: #c17209;
+  margin-bottom: 10px;
 }
 .profile{
   display: flex;

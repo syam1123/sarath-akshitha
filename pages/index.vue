@@ -20,6 +20,7 @@
       <AboutGroom />
       <AboutBride />
     </div>
+    <div class="developer-note">(Developer's note: Both are really good at praising each other <b>so far</b>. Next version of the page will release after an year)</div>
     <!-- <div class="engagement-container">
       <div class="overlay">
         <h2>Engagement</h2>
@@ -129,7 +130,7 @@ body {
 
 .about-main-container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   width: 95%;
   justify-content: space-between;
   margin: 3em auto;
@@ -172,6 +173,15 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
+.developer-note {
+  margin-top: -2em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-family: lato;
+  color: #777;
+}
+
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
@@ -244,6 +254,13 @@ body {
     font-size: 16px;
     font-weight: 500;
     /* color: #440202; */
+  }
+  .developer-note {
+    margin-top: -4em;
+    margin-bottom: 4em;
+  }
+  .about-container{
+    justify-content: center;
   }
 }
 
