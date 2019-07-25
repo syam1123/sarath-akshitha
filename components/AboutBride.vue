@@ -5,32 +5,14 @@
         <div class="image" />
       </div>
       <h1>Akshitha</h1>
-      <h2>(5 things about her by him)</h2>
+      <h2>(Five things about her by him)</h2>
       <ul class="profile-details">
         <li>"Food, Sleep and Work - Favourite trio"</li>
         <li>"Can hold a conversation until 4am and go to work at 8"</li>
         <li>"Thought she is really cute when first met,... still does"</li>
-        <li>"She knows i can't fix the internet" </li>
+        <li>"She knows I can't fix the Internet" </li>
         <li>"Amsterdam, currenrt favourite destination"</li>
       </ul>
-      <!-- <dl class="profile">
-        <dt>Name</dt>
-        <dd>Akshitha S Pillai</dd>
-        <dt>Birthday</dt>
-        <dd>13 November, 1994</dd>
-        <dt>Childhood dream</dt>
-        <dd>Doctor</dd>
-        <dt>Current job</dt>
-        <dd>Dental specialist</dd>
-        <dt>Current location</dt>
-        <dd>Chengannur</dd>
-        <dt>Favorite destination</dt>
-        <dd>Thailand</dd>
-        <dt>Favorite food</dt>
-        <dd>Appam & Duck roast</dd>
-        <dt>Favorite drink</dt>
-        <dd>Coffee</dd>
-      </dl>-->
     </div>
   </div>
 </template>

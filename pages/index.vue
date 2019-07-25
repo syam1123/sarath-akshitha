@@ -20,7 +20,8 @@
       <AboutGroom />
       <AboutBride />
     </div>
-    <div class="developer-note">(Developer's note: Both are really good at praising each other <b>so far</b>. Next version of the page will release after an year)</div>
+    <div class="developer-note">(<a href="https://www.facebook.com/friendship/Sarath.sp06/syam.sp0965/?show_checkins=0">Developer</a>'s note: Both are good at praising each other <b>so far</b>. Next version of the page will   release after a year)
+</div>
     <!-- <div class="engagement-container">
       <div class="overlay">
         <h2>Engagement</h2>
@@ -57,6 +58,7 @@ export default {
 </script>
 
 <style>
+
 body {
   font-family: 'Work Sans', sans-serif;
 }
@@ -179,6 +181,11 @@ body {
   text-align: center;
   font-family: lato;
   color: #777;
+}
+
+.developer-note a {
+  text-decoration: none;
+  color:#777;
 }
 
 @-moz-keyframes bounce {

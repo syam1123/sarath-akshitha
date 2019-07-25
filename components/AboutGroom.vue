@@ -5,32 +5,14 @@
         <div class="image" />
       </div>
       <h1>Sarath</h1>
-      <h2>(5 things about him by her)</h2>
+      <h2>(Five things about him by her)</h2>
       <ul class="profile-details">
-        <li>"Proud of him on following his passion"</li>
-        <li>"Give advices for an hour and say he hates advices"</li>
-        <li>"Until I meet him, bugs were just insects"</li>
+        <li>"Proud of him following his passion"</li>
+        <li>"Can advise for hours and says he doesn't like advice"</li>
+        <li>"Until I met him, bugs were just insects"</li>
         <li>"Amma mon (Mom's child)"</li>
         <li>"Never get's bored of listening to him"</li>
       </ul>
-      <!-- <dl class="profile">
-        <dt>Name</dt>
-        <dd>Sarath Sadasivan Pillai</dd>
-        <dt>Birthday</dt>
-        <dd>13 November, 1992</dd>
-        <dt>Childhood dream</dt>
-        <dd>Computer engineer (I called so)</dd>
-        <dt>Current job</dt>
-        <dd>Sr. Software engineer at Messagebird</dd>
-        <dt>Current location</dt>
-        <dd>Amsterdam</dd>
-        <dt>Favorite destination</dt>
-        <dd>Norway</dd>
-        <dt>Favorite food</dt>
-        <dd>Kappa & beef fry</dd>
-        <dt>Favorite drink</dt>
-        <dd>Tea</dd>
-      </dl> -->
     </div>
   </div>
 </template>
