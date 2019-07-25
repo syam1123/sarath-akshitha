@@ -175,8 +175,7 @@ body {
 }
 
 .developer-note {
-  margin-top: -2em;
-  margin-bottom: 2em;
+  margin: -2em auto 2em;
   text-align: center;
   font-family: lato;
   color: #777;
@@ -256,11 +255,16 @@ body {
     /* color: #440202; */
   }
   .developer-note {
-    margin-top: -4em;
-    margin-bottom: 4em;
+    margin: -4em auto 4em;
   }
   .about-container{
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .developer-note {
+    margin: -2em auto 2em;
   }
 }
 
