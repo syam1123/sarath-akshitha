@@ -260,6 +260,9 @@ body {
   .about-container{
     justify-content: center;
   }
+  .engagement-container{
+    background-size: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
