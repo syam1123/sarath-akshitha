@@ -11,7 +11,7 @@ export default {
       { property: "og:image", itemprop:"image", content:"https://appstickers-cdn.appadvice.com/1201604079/820792288/64a9a614dc21cd2e3a0e887bd85aa143-4.gif" },
       { property: "og:site_name", content: "saraakshi" },
       { property: "og:title" ,content: "Sarath weds Akshitha"},
-      { property: "og:description",  content: "Details of saraths and akshithas wedding" },
+      { property: "og:description",  content: "We request the honor of your presence…" },
       { property: "og:type", content: "website" },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }

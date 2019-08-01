@@ -9,8 +9,8 @@
         <h2 class="subtitle">
           Starting a new life on
         </h2>
-        <p class="text">05 Sept 2019, 11.00am</p>
-        <p class="text"><a href="https://goo.gl/maps/Q4CzCsjtqjnxJUKL9">at Thiruvanvandoor Gosalakrishna Temple</a></p>
+        <p class="text"><a href="http://bit.ly/333OtoZ" target="_blank"> 05 Sept 2019, 11.00am </a></p>
+        <p class="text"><a href="https://goo.gl/maps/Q4CzCsjtqjnxJUKL9" target="_blank">at Thiruvanvandoor Gosalakrishna Temple</a></p>
       </div>
       <div class="arrow-down">
         <i class="fa fa-angle-double-down"></i>
@@ -20,7 +20,7 @@
       <AboutGroom />
       <AboutBride />
     </div>
-    <div class="developer-note">(<a href="https://www.facebook.com/friendship/Sarath.sp06/syam.sp0965/?show_checkins=0">Developer</a>'s note: Both are good at praising each other <b>so far</b>. Next version of the page will   release after a year)
+    <div class="developer-note">(<a href="https://www.facebook.com/syam.sp0965" target="_blank">Developer</a>'s note: Both are good at praising each other <b>so far</b>. Next version of the page will   release after a year)
 </div>
     <!-- <div class="engagement-container">
       <div class="overlay">

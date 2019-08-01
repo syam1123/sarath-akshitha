@@ -15,8 +15,8 @@
         <p>Thiruvanvandoor Mahavishnu Temple</p>
         <p>Chengannur - Thiruvalla</p> -->
         <!-- <p class= "line">________________________________________</p> -->
-      <input type="text" placeholder="Name">
-      <input type="number" placeholder="# of Guests">
+      <input id="rsvpName" type="text" placeholder="Name">
+      <input id="rsvpCount" type="number" placeholder="# of Guests">
       </div>
       <button class ="accept" @click="acceptRsvp">Accept</button>
       <button class ="regret">Cancel</button>
@@ -27,8 +27,28 @@
 export default {
   name: 'Rsvp',
   methods: {
-    acceptRsvp () {
-      alert('Accepted')
+    acceptRsvp() {
+      const url = `https://sarathsp06.pythonanywhere.com/rsvp`;
+      const name  = document.getElementById("rsvpName").value;
+      const count = parseInt(document.getElementById("rsvpCount").value);
+      fetch(url, {
+          method: 'post',
+          headers: {
+            "Content-type": "application/json; charset=UTF-8"
+          },
+          body: JSON.stringify({
+            "name": name,
+            "count": count,
+          }),
+        })
+        .then(resp => resp.json())
+        .then(function(data) {
+          alert(`Thanks a million ${name}!`)
+        })
+        .catch(function(error) {
+          console.log('Request failed', error);
+          alert("Good eats, good friends, good times Thanks a million!")
+        });
     }
   }
 }
