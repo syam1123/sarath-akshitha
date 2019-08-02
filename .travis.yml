@@ -8,6 +8,7 @@ install:
     - yarn install
     
 script:
+    - yarn build
     - firebase use --token $firebase_key production
     - firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $firebase_key
 env:
