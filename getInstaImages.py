@@ -1,4 +1,4 @@
-import urllib
+import urllib.request
 import re
 import json
 link = "https://www.instagram.com/explore/tags/alappuzha"
