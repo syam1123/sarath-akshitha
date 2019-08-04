@@ -1,15 +1,14 @@
-language: node_js
-node_js:
-  - "8" 
-  
-script:
-- echo "skipping tests"
+language: python
 
 install:
+    - nvm install 8.9.0
+    - npm install yarn
     - yarn global add  firebase-tools
     - yarn install
     
 script:
+    - echo "skipping tests"
     - yarn build
     - firebase use --token $firebase_key production
+    - python getInstaImages.py
     - firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token "$FIREBASE_TOKEN"
