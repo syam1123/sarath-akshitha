@@ -1,15 +1,16 @@
-language: node_js
-node_js:
-  - "8" 
+language: python
   
 script:
 - echo "skipping tests"
 
 install:
+    - nvm install 8.9
+    - npm install yarn
     - yarn global add  firebase-tools
     - yarn install
     
 script:
     - yarn build
     - firebase use --token $firebase_key production
+    - curl -L https://www.instagram.com/explore/tags/zomato | grep -Eo 'https?://\S+?.jpg[^"]+'
     - firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token "$FIREBASE_TOKEN"
