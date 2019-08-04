@@ -1,4 +1,4 @@
-# sarath-akshitha
+# sarath-akshitha [![Build Status](https://travis-ci.org/sarathsp06/sarath-akshitha.svg?branch=master)](https://travis-ci.org/sarathsp06/sarath-akshitha)
 
 > Wedding website for Sarath &amp; Akshitha
 
