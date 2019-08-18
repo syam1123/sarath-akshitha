@@ -1,5 +1,5 @@
 language: python
-
+python: 3.6
 install:
     - nvm install 8.9.0
     - npm install yarn
